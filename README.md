@@ -6,15 +6,15 @@ EverydayIsArt client web application.
 
 ### About
 
-![About](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/3f9b96a7-85a4-48a9-a810-5c8623bff7f2)
+![image](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/1af9b030-d2af-42d2-97ed-06cb7682d5a1)
 
 ### Common Gallery
 
-![CommonDarkMobile](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/e1da2e65-8ea9-4d83-b921-1219f8c9d9dc)
+![image](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/d2c2bbdf-c1df-40e6-99fc-356511d786aa)
 
 ### The Metropolitan Museum of Art
 
-![Vam](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/4fbbc82e-3d43-4411-8e2d-885032298b00)
+![image](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/b1586023-3d69-4a2d-91b7-bedd7b060a42)
 
 ## Credits
 
