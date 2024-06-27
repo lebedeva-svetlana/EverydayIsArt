@@ -1,0 +1,78 @@
+{
+  "all": {
+    "imageUrl": "https://cdn.tretyakov.ru/mytretyakov/25/6af54308c295be607e56b434bd28e077/thumb/c215b446bcdf956d848a8419c1b5a920_x1.png",
+    "title": "Гонцы. Ранним утром в Кремле",
+    "date": "1913",
+    "author": [
+      "Васнецов Аполлинарий (1856-1933)"
+    ],
+    "sourceUrl": "https://my.tretyakov.ru/app/masterpiece/10987",
+    "sourceUrlText": "Из собрания Третьяковской галереи",
+    "medium": [
+      "Размер - 125,5 x 178,5",
+      "Материал - холст",
+      "Техника - масло"
+    ],
+    "accessNumber": "Инвентарный номер - Ж-433",
+    "wayToGet": [
+      "Поступило по завещанию П.И. Ляшенко. 1961"
+    ]
+  },
+  "tretyakov": {
+    "imageUrl": "https://cdn.tretyakov.ru/mytretyakov/24/14d5f518c32e9d2de05e84c05981d56a/thumb/5bb430f4482f30a682e554b0720db04c_x1.jpg",
+    "title": "Заросший пруд",
+    "date": "1879",
+    "author": [
+      "Поленов Василий (1844-1927)"
+    ],
+    "sourceUrl": "https://my.tretyakov.ru/app/masterpiece/8420",
+    "sourceUrlText": "Из собрания Третьяковской галереи",
+    "medium": [
+      "Размер - 80 x 124,7",
+      "Материал - холст",
+      "Техника - масло"
+    ],
+    "accessNumber": "Инвентарный номер - Инв.10460",
+    "wayToGet": [
+      "Приобретено в 1928 у Я.И. Ачаркана"
+    ]
+  },
+  "vam": {
+    "imageUrl": "https://framemark.vam.ac.uk/collections/2008BU1275/full/1400,/0/default.jpg",
+    "title": "St. Jean dAcre from the Sea",
+    "date": "1848 (painted)",
+    "author": [
+      "John E. Bowman"
+    ],
+    "sourceUrl": "https://collections.vam.ac.uk/item/O139805/the-citadel-of-sidon-watercolour-bowman-john-e/",
+    "sourceUrlText": "© Victoria and Albert Museum, London",
+    "medium": [
+      "Height: 23.9cm",
+      "Width: 34cm",
+      "Materials and techniques: pencil and watercolour heightened with white and gum"
+    ],
+    "accessNumber": "Accession number: SD.130",
+    "wayToGet": [
+      "Purchased with the assistance of the National Heritage Memorial Fund, Art Fund, Shell International and the Friends of the V&A."
+
+    ]
+  },
+  "metmuseum": {
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP264496.jpg",
+    "title": "The Bathing Pool",
+    "date": "1777–79",
+    "author": [
+      "Hubert Robert"
+    ],
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/437473/",
+    "sourceUrlText": "© The Metropolitan Museum of Art",
+    "medium": [
+      "Dimensions: 68 3/4 x 48 3/4 in. (174.6 x 123.8 cm)",
+      "Medium: Oil on canvas"
+    ],
+    "accessNumber": "Accession number: 17.190.29",
+    "wayToGet": [
+      "Gift of J. Pierpont Morgan, 1917"
+    ]
+  }
+}
