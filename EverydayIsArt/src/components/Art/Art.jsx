@@ -28,13 +28,19 @@ function Art() {
     async function getNewArt() {
         setHasError(false);
         setIsLoading(true);
-        let response = await fetch(url);
-        if (!response.ok) {
+        try {
+            let response = await fetch(url);
+            if (!response.ok) {
+                setHasError(true);
+                setIsLoading(false);
+            }
+            setArt(await response.json());
+            setIsLoading(false);
+        }
+        catch (ex) {
             setHasError(true);
             setIsLoading(false);
         }
-        setArt(await response.json());
-        setIsLoading(false);
     }
 
     function inverseDescNeed() {
