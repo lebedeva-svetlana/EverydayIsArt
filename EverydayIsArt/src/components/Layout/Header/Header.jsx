@@ -38,6 +38,8 @@ function Header() {
         <div className="line"></div>
         <NavLink to="/about" className={({ isActive }) => getNavLinkClass(isActive)}>О проекте</NavLink>
         <NavLink to="/termsofuse" className={({ isActive }) => getNavLinkClass(isActive)}>Условия использования</NavLink>
+        <div className="line"></div>
+        <a href="https://github.com/lebedeva-svetlana/EverydayIsArt" className="nav-link">GitHub</a>
     </>;
 
     return (
