@@ -30,14 +30,14 @@ function Header() {
     </div>;
 
     let fullNav = <>
-        <NavLink to="/random/all" className={({ isActive }) => getNavLinkClass(isActive)}>Общая галерея</NavLink>
+        <NavLink to="/random/all" className={({ isActive }) => getNavLinkClass(isActive)}>General Gallery</NavLink>
         <div className="line"></div>
-        <NavLink to="/random/tretyakov" className={({ isActive }) => getNavLinkClass(isActive)}>Третьяковская галерея</NavLink>
-        <NavLink to="/random/vam" className={({ isActive }) => getNavLinkClass(isActive)}>Музей Виктории и Альберта</NavLink>
-        <NavLink to="/random/metmuseum" className={({ isActive }) => getNavLinkClass(isActive)}>Метрополитен-музей</NavLink>
+        <NavLink to="/random/tretyakov" className={({ isActive }) => getNavLinkClass(isActive)}>The State Tretyakov Gallery</NavLink>
+        <NavLink to="/random/vam" className={({ isActive }) => getNavLinkClass(isActive)}>The Victoria and Albert Museum</NavLink>
+        <NavLink to="/random/metmuseum" className={({ isActive }) => getNavLinkClass(isActive)}>The Metropolitan Museum of Art</NavLink>
         <div className="line"></div>
-        <NavLink to="/about" className={({ isActive }) => getNavLinkClass(isActive)}>О проекте</NavLink>
-        <NavLink to="/termsofuse" className={({ isActive }) => getNavLinkClass(isActive)}>Условия использования</NavLink>
+        <NavLink to="/about" className={({ isActive }) => getNavLinkClass(isActive)}>About the Project</NavLink>
+        <NavLink to="/termsofuse" className={({ isActive }) => getNavLinkClass(isActive)}>Terms of Use</NavLink>
         <div className="line"></div>
         <a href="https://github.com/lebedeva-svetlana/EverydayIsArt" className="nav-link">GitHub</a>
     </>;

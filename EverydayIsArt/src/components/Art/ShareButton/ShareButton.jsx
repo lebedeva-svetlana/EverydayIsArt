@@ -23,9 +23,9 @@ function ShareButton({ authors, title, date, org, url }) {
         if (text.length != 0) {
             text += '\n\n';
         }
-        text += `${org}: ${url}\n\nНайдено с помощью EverydayIsArt (https://everydayisart.ru/)`
+        text += `${org}: ${url}\n\nObtained via EverydayIsArt (https://everydayisart.ru/)`
 
-        navigator.clipboard.writeText(text).then(() => alert('Скопировано!'));
+        navigator.clipboard.writeText(text).then(() => alert('Copied!'));
     }
 
     return (

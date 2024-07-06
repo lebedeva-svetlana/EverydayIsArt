@@ -54,14 +54,14 @@ function Art() {
     return (
         <div className="art-panel" disabled={isLoading}>
             <div className="art-toolbar">
-                <button type="button" onClick={getNewArt} disabled={isLoading} className="art-get">Исследовать</button>
+                <button type="button" onClick={getNewArt} disabled={isLoading} className="art-get">Research</button>
                 <label disabled={isLoading} className="art-checkbox-label">
                     <input type="checkbox" checked={isDescNeed} onChange={inverseDescNeed} disabled={isLoading} className="art-checkbox" />
-                    Показать описание
+                    Show Description
                 </label>
                 {isArtShown && <ShareButton authors={art.author} title={art.title} date={art.date} url={art.sourceUrl} org={art.sourceUrlText}></ShareButton>}
             </div>
-            {hasError && <p className="art-error">Произошла ошибка! Повторите попытку.</p>}
+            {hasError && <p className="art-error">Something is wrong, please try again!</p>}
             {isArtShown && !hasError && <ArtContent artContent={art} isDescNeed={isDescNeed}></ArtContent>}
         </div>
     );
