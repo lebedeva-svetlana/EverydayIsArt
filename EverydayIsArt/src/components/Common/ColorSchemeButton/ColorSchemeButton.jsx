@@ -5,19 +5,28 @@ import Icon from '../../../assets/images/colorScheme.svg';
 import './ColorSchemeButton.scss';
 
 function ColorSchemeButton() {
-    const [isDark, setIsDark] = useState(false);
+    const [needChange, setNeedChange] = useState(false);
 
     useEffect(() => {
         let isThemeDark = isStorageThemeDark();
-        if (isThemeDark || isDark) {
-            document.body.classList.add('dark');
-            setThemeToStorage('dark');
+        if ((needChange && !isThemeDark) || (!needChange && isThemeDark)) {
+            setDarkTheme();
         }
         else {
-            document.body.classList.remove('dark');
-            setThemeToStorage('light');
+            setLightTheme();
         }
-    }, [isDark]);
+        setNeedChange(false);
+    }, [needChange]);
+
+    function setDarkTheme() {
+        document.body.classList.add('dark');
+        setThemeToStorage('dark');
+    }
+
+    function setLightTheme() {
+        document.body.classList.remove('dark');
+        setThemeToStorage('light');
+    }
 
     function isStorageThemeDark() {
         let storageTheme = localStorage.getItem('theme');
@@ -32,7 +41,7 @@ function ColorSchemeButton() {
     }
 
     function inverseColorTheme() {
-        setIsDark(!isDark);
+        setNeedChange(true);
     }
 
     return (
