@@ -2,19 +2,7 @@
 
 EverydayIsArt client web application.
 
-## Screenshots
-
-### About Page
-
-![About](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/5a09baf9-9d2c-482c-86b4-4c5c95be0538)
-
-### Gallery Page
-
-![Gallery](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/ce3bc451-a7eb-44fd-ab81-5fc94785bb91)
-
-### Mobile Page
-
-![MobilePage](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/f03ad383-a31c-49ac-a114-5092fe67205d)
+![Gallery](https://github.com/lebedeva-svetlana/EverydayIsArt/assets/91262515/a61c8131-2eed-49db-aa95-c1dac0fd50a0)
 
 ## Credits
 
