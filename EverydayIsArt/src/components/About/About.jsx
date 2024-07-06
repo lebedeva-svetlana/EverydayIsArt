@@ -10,7 +10,7 @@ function About() {
                 <h2 className="about-title">Открыйвайте для себя новое c
                     <span className="about-project-name-green"> Everyday</span>
                     Is
-                    <span className="about-project-name-green">Art</span>
+                    <span className="about-project-name-green">Art!</span>
                 </h2>
                 <p className="about-info">Выберите источник из меню и получите случайную работу из его коллекции.</p>
             </div>
