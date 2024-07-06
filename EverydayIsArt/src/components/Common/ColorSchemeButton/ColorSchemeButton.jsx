@@ -21,7 +21,7 @@ function ColorSchemeButton() {
 
     function isStorageThemeDark() {
         let storageTheme = localStorage.getItem('theme');
-        return storageTheme !== 'dark';
+        return storageTheme === 'dark';
     }
 
     function setThemeToStorage(theme) {
