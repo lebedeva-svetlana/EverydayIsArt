@@ -12,7 +12,7 @@ function About() {
                     Is
                     <span className="about-project-name-green">Art</span>
                 </h2>
-                <p className="about-info">Выберите источник и получите случайную работу из его коллекции.</p>
+                <p className="about-info">Выберите источник из меню и получите случайную работу из его коллекции.</p>
             </div>
         </div>
     );
