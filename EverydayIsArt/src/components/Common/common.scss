@@ -185,3 +185,27 @@ label:has(input:disabled) {
     pointer-events: none;
     opacity: 0.5;
 }
+
+%input-text-base {
+    border: none;
+    padding: 0 0 10px 0;
+    width: 400px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.input-text {
+    @extend %input-text-base;
+    border-bottom: 2px solid vars.$color-primary;
+
+    &:hover {
+        border-bottom: 2px solid vars.$color-seconday;
+    }
+
+    &:focus {
+        border-bottom: 2px solid vars.$color-seconday;
+        outline: none;
+    }
+}

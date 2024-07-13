@@ -11,6 +11,7 @@ import './Art.scss';
 
 function Art() {
     const [art, setArt] = useState(null);
+    const [objectNumber, setObjectNumber] = useState(null);
     const [isArtShown, setIsArtShown] = useState(false);
     const [isDescNeed, setIsDescNeed] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
@@ -29,7 +30,11 @@ function Art() {
         setHasError(false);
         setIsLoading(true);
         try {
-            let response = await fetch(url);
+            let fetchUrl = url;
+            if (objectNumber !== null && objectNumber.trim().lenght !== 0) {
+                fetchUrl += `/${objectNumber}`;
+            }
+            let response = await fetch(fetchUrl);
             if (!response.ok) {
                 setHasError(true);
                 setIsLoading(false);
@@ -60,6 +65,7 @@ function Art() {
                     Show Description
                 </label>
                 {isArtShown && <ShareButton authors={art.author} title={art.title} date={art.date} url={art.sourceUrl} org={art.sourceUrlText}></ShareButton>}
+                <input value={objectNumber} placeholder="Exhibit number" onChange={e => setObjectNumber(e.target.value)} type="text" className="input-text" />
             </div>
             {hasError && <p className="art-error">Something is wrong, please try again!</p>}
             {isArtShown && !hasError && <ArtContent artContent={art} isDescNeed={isDescNeed}></ArtContent>}
