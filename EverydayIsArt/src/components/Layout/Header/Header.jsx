@@ -30,11 +30,11 @@ function Header() {
     </div>;
 
     let fullNav = <>
-        <NavLink to="/random/all" className={({ isActive }) => getNavLinkClass(isActive)}>General Gallery</NavLink>
+        <NavLink to="/all" className={({ isActive }) => getNavLinkClass(isActive)}>General Gallery</NavLink>
         <div className="line"></div>
-        <NavLink to="/random/tretyakov" className={({ isActive }) => getNavLinkClass(isActive)}>The State Tretyakov Gallery</NavLink>
-        <NavLink to="/random/vam" className={({ isActive }) => getNavLinkClass(isActive)}>The Victoria and Albert Museum</NavLink>
-        <NavLink to="/random/metmuseum" className={({ isActive }) => getNavLinkClass(isActive)}>The Metropolitan Museum of Art</NavLink>
+        <NavLink to="/tretyakov" className={({ isActive }) => getNavLinkClass(isActive)}>The State Tretyakov Gallery</NavLink>
+        <NavLink to="/vam" className={({ isActive }) => getNavLinkClass(isActive)}>The Victoria and Albert Museum</NavLink>
+        <NavLink to="/metmuseum" className={({ isActive }) => getNavLinkClass(isActive)}>The Metropolitan Museum of Art</NavLink>
         <div className="line"></div>
         <NavLink to="/about" className={({ isActive }) => getNavLinkClass(isActive)}>About the Project</NavLink>
         <NavLink to="/termsofuse" className={({ isActive }) => getNavLinkClass(isActive)}>Terms of Use</NavLink>
