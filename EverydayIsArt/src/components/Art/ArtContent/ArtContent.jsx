@@ -25,8 +25,6 @@ function ArtContent({ artContent, isDescNeed }) {
                     </div>
                     <div className="art-description-group">
                         {artContent.accessNumber && <p className="art-par">{artContent.accessNumber}</p>}
-                    </div>
-                    <div className="art-description-group">
                         {artContent.wayToGet && Object.keys(artContent.wayToGet).map(p => <p className="art-par" key={artContent.wayToGet[p]}>{artContent.wayToGet[p]}</p>)}
                     </div>
                     {artContent.description && isDescNeed && <ArtDescription description={artContent.description}></ArtDescription>}
